@@ -1,0 +1,10 @@
+API endpoint name: ShowElectionConstituency.php
+
+POST parameters:
+	postAuthKey: our auth key
+	electionId: Integer id of election
+
+Response parameters:
+	ValidAuth: boolean
+	validElection: boolean
+	constituencyList: Array of string(Names of constituency)
