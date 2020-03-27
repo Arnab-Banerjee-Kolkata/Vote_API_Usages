@@ -1,0 +1,12 @@
+API endpoint name: ChangeApproval.php
+
+POST parameters:
+	postAuthKey: our auth key
+	aadhaarNo: Long aadhaar number
+	approvalState: Integer approval state
+		(0: not approved; 1: approved)
+	electionId: Integer election id
+
+Response parameters:
+	success: boolean
+	validAuth: boolean
