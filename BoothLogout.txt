@@ -1,0 +1,12 @@
+API endpoint name: BoothLogout.php
+
+
+POST parameters:
+	postAuthKey: Our auth key
+	booth_id: String id of booth
+
+Response parameters:
+	success: boolean
+	validAuth: boolean
+	validBooth: boolean(False for invalid booth)
+		
