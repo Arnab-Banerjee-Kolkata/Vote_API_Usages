@@ -1,0 +1,18 @@
+API endpoint name: AddCandidate.php
+
+POST parameters:
+	postAuthKey: our auth key
+	name: String
+	electionId: Integer
+	constituencyName: String
+	partyName: String
+	img: String(may be blank) pth of candidate image
+
+Response parameters:
+	success: boolean
+	validAuth: boolean
+	validParty: boolean
+	validElection: boolean
+	validConstituency: boolean
+	validCandidate: boolean
+	candidateId: Integer Id of candidate (-1 on failure)
