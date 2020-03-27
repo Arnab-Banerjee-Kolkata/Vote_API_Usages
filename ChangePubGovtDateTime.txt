@@ -1,0 +1,15 @@
+API endpoint name: ChangePubGovtDateTime.php
+
+POST parameters: 
+	postAuthKey: our auth key
+	electionId: Integer id of election
+	startDateTime: String of format "YYYY-MM-DD HH:MM:SS" in 24hr format
+	endDAteTime : String of format "YYYY-MM-DD HH:MM:SS" in 24hr format
+	
+
+Response parameters:
+	success: boolean 
+	validAuth: boolean
+	validTime: boolean(false if election cannot be re scheduled to the given time)
+	validElecction: boolean(false for invalid election)
+	
