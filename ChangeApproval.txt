@@ -10,3 +10,5 @@ POST parameters:
 Response parameters:
 	success: boolean
 	validAuth: boolean
+	validElection: boolean(false for invalid election Id)
+	validAadhaar: boolean(false for invalid aadhaar number)
