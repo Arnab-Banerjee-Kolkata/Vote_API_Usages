@@ -12,3 +12,4 @@ Response parameters:
 	validAuth: boolean
 	validElection: boolean(false for invalid election Id)
 	validAadhaar: boolean(false for invalid aadhaar number)
+	validApproval: boolean(false for invalid approval state)
