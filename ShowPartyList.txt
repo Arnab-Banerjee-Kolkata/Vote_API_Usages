@@ -1,0 +1,12 @@
+API endpoint name: ShowPartyList.php
+
+POST parameters:
+    postAuthKey: our auth key
+    
+    
+Response parameters:
+    success: boolean
+    validAuth: boolean
+    partyList: json array. Each array element has:
+                name: String name of party
+                symbol: String path of party symbol image.
