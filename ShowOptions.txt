@@ -1,0 +1,16 @@
+API endpoint name: ShowOptions.php
+
+POST parameters:
+    postAuthKey: our auth key
+    electionId: Integer id of election
+    aadhaarNo: Long aadhaar number
+    stateCode: String code of state
+    phaseCode: String code of phase
+    
+Response parameters:
+    success: boolean
+    validAuth: boolean
+    validElection: boolean(false for invalid election id)
+    validAadhaar: boolean(false for invalid aadhaar number)
+    validApproval: boolean(false if voter is not approved)
+    validConstituency: boolean(false if voter cannot vote in the given election)
