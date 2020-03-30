@@ -1,0 +1,12 @@
+API endpoint name: TestSms.php
+
+
+POST parameters:
+    aadhaarNo: String aadhaar number of recepient
+    smsAuthKey: our String key for sms authentication
+    
+    
+    
+Response parameters:
+    validAadhaar: boolean(false for invalid aadhaar number)
+    validSmsAuth: boolean(false for invalid auth key)
