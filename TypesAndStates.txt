@@ -1,0 +1,15 @@
+API endpoint name: TypesAndStates
+
+
+POST parameters:
+    postAuthKey: our auth key
+    
+    
+    
+Response parameters:
+    success: boolean
+    validAuth: boolean
+    electionNames: json array of String election types
+    states: json array. Each element consists:
+            code: String state code
+            name: String state name
