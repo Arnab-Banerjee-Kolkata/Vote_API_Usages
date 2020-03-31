@@ -1,0 +1,14 @@
+API endpoint name: ValidateBooth.php
+
+POST parameters:
+        postAuthKey: our auth key
+        booth_id: String id of booth
+        otp: Integer OTP of booth
+        
+        
+        
+Response parameters:
+        success: boolean
+        validAuth: boolean
+        validBooth: boolean(false for invalid boothId)
+        validLogin: boolean(false for logged in booth)
