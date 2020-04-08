@@ -1,0 +1,15 @@
+API endpoint name: ShowCompletedElectionList.php
+
+POST paramaters:
+    postAuthKey: our auth key
+    
+    
+
+Response parameters:
+    success: boolean
+    validAuth: boolean
+    elections: json array. Each array element has:
+                electionId: Integer id of election
+                name: String name of election
+                status: status of election(2: for partially published results and 3: for completely published results)
+                type: String type of election (LOK SABHA or VIDHAN SABHA)
