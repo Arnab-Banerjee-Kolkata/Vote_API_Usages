@@ -1,0 +1,20 @@
+API endpoint name: OverallElectionResult.php
+
+
+POST parameters:
+    postAuthKey: our auth key
+    electionId: integer id of election
+    type: String type of election(LOK SABHA or VIDHAN SABHA)
+    stateCode: String code of state [Only for overall result of a state in LOK SABHA election]
+    
+    
+Response parameters:
+    success: boolean
+    validAuth: boolean
+    validType: boolean (false for invalid election type)
+    validState: boolean (false for invalid state code)
+    validElection: boolean (false for invalid election Id)
+    status: Integer status of election(2 or 3)
+    results: JSON array. Each array element has:
+            partyname: String name of party
+            seatsWon: Integer number of seats won
