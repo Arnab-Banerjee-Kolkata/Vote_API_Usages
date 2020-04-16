@@ -1,0 +1,13 @@
+API endpoint name: ShowStateList.php
+
+
+POST parameters: 
+    postAuthKey: our auth key
+    
+    
+Response parameters:
+    success: boolean
+    validAuth: boolean
+    stateList: JSON array. Each element has:
+            name: String name of state
+            code: String code of state
