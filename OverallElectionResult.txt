@@ -13,7 +13,7 @@ Response parameters:
     validAuth: boolean
     validType: boolean (false for invalid election type)
     validState: boolean (false for invalid state code)
-    validElection: boolean (false for invalid election Id)
+    validElection: boolean (false for invalid election Id or if result calculation has not started(for that particular state))
     status: Integer status of election(2 or 3)
     results: JSON array. Each array element has:
             partyname: String name of party
