@@ -1,0 +1,22 @@
+API endpoint name: ConstituencyWiseResult.php
+
+POST parameters:
+    postAuthKey: our auth key
+    electionId: Integer Id of election
+    type: String type of election(LOK SABHA or VIDHAN SABHA)
+    stateCode: String code of state(ONLY FOR LOK SABHA)
+    
+    
+Response parameters:
+    success: boolean
+    validAuth: boolean
+    validType: boolean(false for invalid election type)
+    validState: boolean(false for invalid state code)
+    validElection: boolean(false for invalid election Id or if result calculation has not started)
+    status: Integer status of election(sub-election for LOK SABHA)
+    results: JSON array. Each array element has:
+            constituencyName: String name of constituency
+            candidateName: String name of winning candidate
+            partyName: String name of winning party
+            partySymbol: String path of winning party symbol
+            voteCount: Integer count of votes of winning candidate
