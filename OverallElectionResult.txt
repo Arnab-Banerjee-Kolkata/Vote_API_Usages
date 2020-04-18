@@ -15,6 +15,7 @@ Response parameters:
     validState: boolean (false for invalid state code)
     validElection: boolean (false for invalid election Id or if result calculation has not started(for that particular state))
     status: Integer status of election(2 or 3)
+    totalSeats: Integer count of total number of seats
     results: JSON array. Each array element has:
             partyname: String name of party
             seatsWon: Integer number of seats won
