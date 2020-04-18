@@ -18,3 +18,4 @@ Response parameters:
     results: JSON array. Each array element has:
             partyname: String name of party
             seatsWon: Integer number of seats won
+            partySymbol: String path of party symbol
