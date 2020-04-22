@@ -13,4 +13,3 @@ Response parameters:
                 name: String name of election
                 type: String type of election
                 status: Integer status of election
-               
