@@ -10,9 +10,7 @@ Response parameters:
     validAuth: boolean
     elections: json array. Each element has:
                 electionId: Integer id of election
-                state: String name of state
-                phaseCode: String code of election phase
+                name: String name of election
                 type: String type of election
                 status: Integer status of election
-                startTime: String start date time in format 'YYYY-MM-DD HH:MM:SS' in 24hr format
-                endTime: String end date time in format 'YYYY-MM-DD HH:MM:SS' in 24hr format
+               
