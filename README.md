@@ -1,4 +1,5 @@
 # Vote_API_Usages
+<b> API HOST path:</b>http://www.remote-voting.rf.gd
 
 <b>Election status::</b><br><br>
     0: pending<br>
