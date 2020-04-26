@@ -13,3 +13,4 @@ Response parameters:
                 name: String name of election
                 status: status of election(2: for partially published results and 3: for completely published results)
                 type: String type of election (LOK SABHA or VIDHAN SABHA)
+                year: Integer year of election
