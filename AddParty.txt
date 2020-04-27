@@ -9,6 +9,7 @@ POST parameters:
 
 Response parameters:
 	validAuth: boolean
+	validBooth: boolean(false for invalid or logged out booth)
 	validName: boolean (false if name is already taken)
 	validSymbol: boolean(false if symbol path is repeated)
 	success: boolean
