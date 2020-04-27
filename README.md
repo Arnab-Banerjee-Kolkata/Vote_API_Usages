@@ -14,3 +14,7 @@ Check the error responses in the provide order for accurate detection of paramet
 <b>ValidateOtp category::</b><br><br>
     voter: When voter's OTP is needed to be validated from Remote Polling Device<br>
     booth: When booth's OTP is needed to be validated from Voter's device<br>
+<br>
+<b>Booth status::</b><br><br>
+    0: Logged out<br>
+    1: Logged in<br>
