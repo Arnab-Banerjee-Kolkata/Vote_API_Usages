@@ -1,0 +1,15 @@
+API endpoint name: GetRandomKey.php
+
+POST parameters:
+    postAuthKey: our auth key
+    boothId: String id of booth
+    
+    
+    
+Response parameters:
+    success: boolean
+    validAuth: boolean
+    validBooth: boolean(false for invalid or logged out booth)
+    setNo: Integer number of key set
+    keySet: JSON array. Each array element contains:
+        plain text character as key and encryption equivalent as its value.
