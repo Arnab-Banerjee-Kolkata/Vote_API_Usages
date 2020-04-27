@@ -2,6 +2,7 @@ API endpoint name: CreateStateElection.php
 
 POST parameters:
     postAuthKey: our auth key
+    boothId: String id of booth
     type: String type of election
     stateCode: String code of state of election
     electionName: String name of election(Only VIDHAN SABHA)
@@ -13,6 +14,7 @@ POST parameters:
 Response parameters:
     success: boolean
     validAuth: boolean
+    validBooth: boolean(false for invalid or logged out booth)
     validState: boolean(false for invalid state code)
     validType: boolean(false for invalid type of election)
     validCountryElection: boolean(false for invalid lok sabha election id)[only for LOK SABHA]
