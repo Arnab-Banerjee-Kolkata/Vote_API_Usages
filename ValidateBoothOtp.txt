@@ -1,0 +1,17 @@
+API endpoint name: ValidateBoothOtp.php
+
+
+POST parameters:
+    boothId: String id of booth
+    otp: Integer otp of booth
+    postAuthKey: our auth key
+    electionId: Integer id of election
+    type: String type of election(LOK SABHA or VIDHAN SABHA)
+    
+    
+    
+Response parameters:
+    success: boolean
+    validAuth: boolean
+    validBooth: boolean(false for invalid or logged out booth)
+    validOtp: boolean(false for incorrect otp)
