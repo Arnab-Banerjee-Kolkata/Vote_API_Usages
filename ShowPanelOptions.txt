@@ -7,6 +7,7 @@ POST parameters:
   electionId: country election id
   type: type of election LOK SABHA or VIDHAN SABHA
   
+  
 Response parameters:
   validAuth: boolean
   validBooth: boolean
