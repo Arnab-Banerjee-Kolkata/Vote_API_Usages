@@ -2,8 +2,6 @@ API endpoint name: StoreVote.php
 
 POST parameters:
     postAuthKey: our auth key
-    phaseElectionId: Integer election id of phase
-    constituencyName: String name of constituency of voter
     boothId: String id of booth
     enVote: String encrypted vote(In the discussed pre-defined standard format)
     
@@ -13,7 +11,5 @@ Response parameters:
     success: boolean
     validAuth: boolean
     validBooth: boolean(false for invalid booth id or logged out booth)
-    validPhaseElection: booean(false for invalid phaseElectionId or not on going election)
-    validConstituency: boolean(false for invalid constituencyName or if constituency does not fall under phaseElection)
     validIntegrity: boolean(false if number of people voted is not equal to the number of votes)
     validApproval: boolean(false if an approval from the specified phase election, constituency and booth is not present)
