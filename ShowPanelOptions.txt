@@ -16,4 +16,4 @@ Response parameters:
   validType: boolean
   validApproval: boolean
   success: boolean
-  phaseElectionId: string
+  phaseElectionId: integer
