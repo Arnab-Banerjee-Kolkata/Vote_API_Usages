@@ -1,0 +1,14 @@
+API endpoint name: FetchVoterImage.php
+
+POST parameters:
+  postAuthKey: our auth key
+  boothId: booth id
+  aadhaarNo: aadhaar of the voter
+  
+ 
+ Response parameters:
+  validAuth: boolean
+  validBooth: boolean
+  validAadhaar: boolean
+  imagePath: string
+  success: true
