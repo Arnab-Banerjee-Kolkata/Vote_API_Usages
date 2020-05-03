@@ -1,0 +1,13 @@
+API endpoint name: AdminLogin.php
+
+POST parameters:
+    postAuthKey: our auth key
+    adminId: string id of admin
+    adminOtp: int OTP of admin's id
+    
+
+Response parameters:
+    validAuth: boolean
+    validAdmin: boolean
+    validOtp: boolean
+    
