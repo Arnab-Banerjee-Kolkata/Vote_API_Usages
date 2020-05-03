@@ -11,7 +11,11 @@ POST parameters:
     
     
 Response parameters:
-    success: boolean
     validAuth: boolean
     validBooth: boolean(false for invalid or logged out booth)
     validOtp: boolean(false for incorrect otp)
+    sub: JSON array which contains:
+        success: boolean
+        validInternalAuth: boolean(false for invalid key)
+        validElection: boolean(false for invalid election id)
+        validParentElection: boolean(false if election id does not match with approval parent election id)
