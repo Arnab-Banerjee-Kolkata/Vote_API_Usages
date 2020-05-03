@@ -19,3 +19,8 @@ Response parameters:
         validInternalAuth: boolean(false for invalid key)
         validElection: boolean(false for invalid election id)
         validParentElection: boolean(false if election id does not match with approval parent election id)
+        candidates: JSON array. Each array element has:
+            id: Integer id of the candidate
+            name: String name of candidate
+            party: String name of party
+            img: String path of candidate image
