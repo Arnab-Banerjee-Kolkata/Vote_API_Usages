@@ -13,3 +13,4 @@ Response parameters:
     validBooth: boolean(false for invalid booth id or logged out booth)
     validIntegrity: boolean(false if number of people voted is not equal to the number of votes)
     validApproval: boolean(false if an approval from the specified phase election, constituency and booth is not present)
+    deleteApproval: boolean(false if approval was deleted in this call)
