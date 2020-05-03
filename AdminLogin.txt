@@ -10,4 +10,5 @@ Response parameters:
     validAuth: boolean
     validAdmin: boolean
     validOtp: boolean
+    success: boolean
     
