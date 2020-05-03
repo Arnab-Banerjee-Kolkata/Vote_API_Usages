@@ -1,0 +1,11 @@
+API endpoint name: AdminLogout.php
+
+POST parameters:
+    postAuthKey: our auth key
+    adminId: string id of admin
+    
+
+Response parameters:
+    validAuth: boolean
+    validAdmin: boolean
+    success: boolean
