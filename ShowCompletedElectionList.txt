@@ -11,6 +11,6 @@ Response parameters:
     elections: json array. Each array element has:
                 electionId: Integer id of election
                 name: String name of election
-                status: status of election(2: for partially published results and 3: for completely published results)
+                status: status of election(2: for partially published results and 3: for completely published results) [Use ONLY 2 for result declaration.]
                 type: String type of election (LOK SABHA or VIDHAN SABHA)
                 year: Integer year of election
