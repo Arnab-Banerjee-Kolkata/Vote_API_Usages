@@ -1,0 +1,23 @@
+//CALLED DURING RESULT DECLARATION PROCESS
+
+API endpoint name: ShowParentElectionConstituencyList.php
+
+
+POST parameters:
+    postAuthKey: our auth key
+    electionId: Integer id of election
+    type: String type of election
+    
+    
+    
+Response parameters:
+    success: boolean
+    validAuth: boolean
+    validType: boolean(false for invalid type)
+    validElection: boolean(false for invalid election id)
+    constituencyList: JSON array. Each array element contains:
+        name: String name of constituency
+        stateName: String name of state of constituency[Only for LOK SABHA elections]
+    declaredList: JSON array. Each array element contains:
+        name: String name of constituency
+        stateName: String name of state of constituency[Only for LOK SABHA elections]
