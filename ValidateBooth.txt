@@ -1,3 +1,5 @@
+//CALLED FROM BOOTH
+
 API endpoint name: ValidateBooth.php
 
 POST parameters:
