@@ -1,3 +1,5 @@
+//CALLED DURING ELECTION CREATION PROCESS
+
 API endpoint name: ShowCompletedElectionList.php
 
 POST paramaters:
