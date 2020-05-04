@@ -1,3 +1,5 @@
+//CALLED FROM POLLING DEVICE
+
 API endpoint name: ValidateBoothOtp.php
 
 
