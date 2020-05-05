@@ -1,0 +1,13 @@
+API endpoint name: RemoveApproval.php
+
+POST parameters:
+    postAuthKey: our auth key
+    boothId: string id of the booth
+    electionId: int election id
+    
+    
+ Response parameters:
+    validAuth: boolean
+    validBooth: boolean
+    validElection: boolean
+    success: boolean
