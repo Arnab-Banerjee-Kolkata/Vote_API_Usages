@@ -7,7 +7,7 @@ POST parameters:
     
     
  Response parameters:
+    success: boolean
     validAuth: boolean
     validBooth: boolean
     validElection: boolean
-    success: boolean
