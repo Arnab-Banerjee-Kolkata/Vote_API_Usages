@@ -1,0 +1,20 @@
+API endpoint name: CalculateConstituencyResult.php
+
+
+POST parameters:
+    postAuthKey: our auth key
+    adminId: String id of admin
+    electionId: Integer id of country or state election
+    type: String type(LOK SABHA or VIDHAN SABHA)
+    constituencyName: String name of constituency
+    
+    
+    
+Response parameters:
+    success: boolean
+    validAuth: boolean
+    validAdmin: boolean(false for invalid or logged out admin id)
+    validType: boolean(false for invalid type)
+    validElection: boolean(false for invalid election id)
+    validConstituency: boolean(false for invalid constituency name)
+    validResult: boolean(false if this result has already been declared)
