@@ -11,7 +11,6 @@ POST parameters:
     
     
 Response parameters:
-    success: boolean
     validAuth: boolean
     validAdmin: boolean(false for invalid or logged out admin id)
     validType: boolean(false for invalid type)
