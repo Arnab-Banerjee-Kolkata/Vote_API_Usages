@@ -1,0 +1,17 @@
+API endpoint name: ChangeStatus.php
+
+POST parameters:
+    postAuthKey: our auth key
+    adminId: string id of admin
+    electionId: int id of election
+    type: type of election LS or VS
+    newStatus: int new status to be updated
+    
+
+Response parameters:
+    validAuth: boolean
+    validAdmin: boolean
+    validElection: boolean
+    validType: boolean
+    validStatus: boolean
+    success: boolean
