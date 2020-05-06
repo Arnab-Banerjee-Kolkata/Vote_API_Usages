@@ -1,4 +1,4 @@
-API endpoint name: ChangeStatus.php
+API endpoint name: ChangeElectionStatus.php
 
 POST parameters:
     postAuthKey: our auth key
