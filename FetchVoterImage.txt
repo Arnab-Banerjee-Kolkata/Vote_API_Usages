@@ -7,8 +7,8 @@ POST parameters:
   
  
  Response parameters:
+  success: boolean
   validAuth: boolean
-  validBooth: boolean
-  validAadhaar: boolean
-  imagePath: string
-  success: true
+  validBooth: boolean (false for invalid boothId and booth not logged in)
+  validAadhaar: boolean (false for invalid Aadhaar number)
+  imagePath: string (path of voter's image)
