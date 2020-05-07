@@ -6,6 +6,7 @@ POST parameters:
     
 
 Response parameters:
-    validAuth: boolean
-    validAdmin: boolean
     success: boolean
+    validAuth: boolean
+    validAdmin: boolean (false for invalid admin or already logged out)
+    
