@@ -7,8 +7,9 @@ POST parameters:
     
 
 Response parameters:
-    validAuth: boolean
-    validAdmin: boolean
-    validOtp: boolean
     success: boolean
+    validAuth: boolean
+    validAdmin: boolean (false for invalid admin or already logged in)
+    validOtp: boolean (false for invalid otp)
+    
     
