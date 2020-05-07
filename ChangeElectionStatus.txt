@@ -11,8 +11,8 @@ POST parameters:
 Response parameters:
     success: boolean
     validAuth: boolean
-    validAdmin: boolean
-    validType: boolean
-    validElection: boolean
-    validStatus: boolean
+    validAdmin: boolean (false for invalid admin or not logged in)
+    validType: boolean  (false for invalid type)
+    validElection: boolean  (false for invalid electionId)
+    validStatus: boolean (false for newStatus is not 1 greater than currentStatus and status changes from 2 to 3)
     
