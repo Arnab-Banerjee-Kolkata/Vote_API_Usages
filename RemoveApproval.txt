@@ -9,5 +9,5 @@ POST parameters:
  Response parameters:
     success: boolean
     validAuth: boolean
-    validBooth: boolean
-    validElection: boolean
+    validBooth: boolean (false for invalid boothId)
+    validElection: boolean (false for invalid electionId)
