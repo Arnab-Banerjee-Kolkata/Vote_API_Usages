@@ -1,0 +1,18 @@
+API endpoint name: ValidateVoterOtp.php
+
+POST parameters:
+	postAuthKey: our auth key
+  boothId: string booth id
+  aadhaarNo: string aadhaar number
+  voterOtp: integer voter OTP
+  
+  
+Response parameters:
+    success: boolean
+    validAuth: boolean
+	  validBooth: boolean(false for invalid or logged out booth)
+    validAadhaar: boolean (false for invalid aadhaar)
+    validVoteStatus: boolean (false for aadhaarNo present in Govt_Vote_Status table)
+    validApproval: boolean (false for boothId present in Govt_Approval table)
+    validOtp: boolean (false for invalid OTP)
+    success: boolean
