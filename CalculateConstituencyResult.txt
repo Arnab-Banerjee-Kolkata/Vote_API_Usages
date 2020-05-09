@@ -17,3 +17,7 @@ Response parameters:
     validElection: boolean(false for invalid election id)
     validConstituency: boolean(false for invalid constituency name)
     validResult: boolean(false if this result has already been declared)
+    sub: JSON array.
+        success: boolean
+        validInternalAuth: boolean(false if internal auth key is incorrect)
+        validParentOp: boolean(false parent election status check is not performed)
