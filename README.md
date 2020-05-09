@@ -9,6 +9,7 @@ Check the error responses in the provide order for accurate detection of paramet
     2: over but result pending or partially declared<br>
     3: over and result declared<br>
     4: cancelled<br>
+    5: tie in a constituency(Only at phase election)<br>
 <br>
 <br>
 <b>ValidateOtp category::</b><br><br>
