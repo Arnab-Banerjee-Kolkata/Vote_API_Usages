@@ -26,3 +26,4 @@ Response parameters:
             name: String name of candidate
             party: String name of party
             img: String path of candidate image
+            symbol: String path of party symbol of candidate
