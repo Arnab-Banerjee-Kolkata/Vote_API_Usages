@@ -1,0 +1,13 @@
+API endpoint name: ShowCountryElections.php
+
+POST parameters:
+    postAuthKey: our auth key
+    
+    
+Response parameters:
+    success: boolean
+    validAuth: boolean
+    $elections: JSON array. Each element has:
+        electionId: Integer id of election
+        name: String name of election
+        year: Integer year of election
