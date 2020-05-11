@@ -6,6 +6,7 @@ POST parameters:
         postAuthKey: our auth key
         boothId: String id of booth
         otp: Integer OTP of booth
+        userIp: String ip address of requesting network
         
         
         
