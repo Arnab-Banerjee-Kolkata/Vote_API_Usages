@@ -17,6 +17,7 @@ Response parameters:
     results: JSON array. Each array element has:
             constituencyName: String name of constituency
             candidateName: String name of winning candidate
+            candidateImage: String path of candidate image
             partyName: String name of winning party
             partySymbol: String path of winning party symbol
             voteCount: Integer count of votes of winning candidate
