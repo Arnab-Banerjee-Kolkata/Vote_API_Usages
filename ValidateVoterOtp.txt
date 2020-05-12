@@ -17,3 +17,4 @@ Response parameters:
     	validOtp: boolean (false for invalid OTP)
     	validInternalAuth: boolean (false for invalid internal auth key)
 	phaseId: int phase id of LS or VS
+	validInternalAuth2: boolean (false for invalid internal auth key)
