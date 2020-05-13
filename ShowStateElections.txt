@@ -13,7 +13,7 @@ Response parameters:
     validElection: boolean(false for invalid country election id)[ONLY for lok sabha]
     elections: JSON array. Each element contains:
         electionId: Integer id of election
-        name: String name of election
+        name: String name of election[ONLY FOR VIDHAN SABHA]
         year: Integer year of election
         stateCode: String code of state
         stateName: String name of state
