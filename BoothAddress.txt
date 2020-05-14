@@ -8,6 +8,7 @@ POST parameters:
 Response parameters:
     success: boolean
     validAuth: boolean
+    validPlace: boolean
     allBoothsInPlace: json array. Each array element has:
                                       area: String locality of Booth
                                       address: String full address of booth
