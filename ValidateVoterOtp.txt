@@ -15,6 +15,10 @@ Response parameters:
     	validVoteStatus: boolean (false for aadhaarNo present in Govt_Vote_Status table)
     	validApproval: boolean (false for boothId present in Govt_Approval table)
     	validOtp: boolean (false for invalid OTP)
+	boothOtp: String Otp of booth
+	
+	//INCORRECT AFTER THIS
+	
     	validInternalAuth: boolean (false for invalid internal auth key)
 	phaseId: int phase id of LS or VS
 	validInternalAuth2: boolean (false for invalid internal auth key)
