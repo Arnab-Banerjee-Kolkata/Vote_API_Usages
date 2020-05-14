@@ -1,0 +1,14 @@
+API endpoint name: BoothAddress.php
+
+POST parameters:
+    postAuthKey: our auth key
+    place: location of Booth to be searched
+    
+    
+Response parameters:
+    success: boolean
+    validAuth: boolean
+    allBoothsInPlace: json array. Each array element has:
+                                      area: String locality of Booth
+                                      address: String full address of booth
+                                      landmark: String landmark of Booth
