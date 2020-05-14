@@ -1,0 +1,11 @@
+API endpoint name: BoothPlaces.php
+
+POST parameters:
+    postAuthKey: our auth key
+    
+    
+    
+Response parameters:
+    success: boolean
+    validAuth: boolean
+    listOfPlaces: json array of all the places of Booth
