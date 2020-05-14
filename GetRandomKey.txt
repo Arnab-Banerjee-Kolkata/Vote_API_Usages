@@ -11,5 +11,5 @@ Response parameters:
     validAuth: boolean
     validBooth: boolean(false for invalid or logged out booth)
     setNo: Integer number of key set
-    keySet: JSON array. Each array element contains:
+    keySet: JSON object containing:
         plain text character as key and encryption equivalent as its value.
