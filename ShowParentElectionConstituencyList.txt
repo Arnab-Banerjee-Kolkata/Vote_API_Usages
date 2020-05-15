@@ -7,12 +7,14 @@ POST parameters:
     postAuthKey: our auth key
     electionId: Integer id of election
     type: String type of election
+    adminId: String id of admin
     
     
     
 Response parameters:
     success: boolean
     validAuth: boolean
+    validAdmin: boolean(false for invalid admin)
     validType: boolean(false for invalid type)
     validElection: boolean(false for invalid election id)
     constituencyList: JSON array. Each array element contains:
