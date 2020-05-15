@@ -17,3 +17,4 @@ Response parameters:
     validSmsAuth: boolean(false for invalid auth key)
     validType: boolean(false for invalid type)
     validVoter: boolean(false if voter has already voted)
+    validLimit: boolean(false if sms limit has been reached for the voter for this election from this booth)
