@@ -1,0 +1,11 @@
+API endpoint name: SendBoothOtp.php
+
+POST parameters:
+    postAuthKey: our auth key
+    boothId: string booth id
+
+
+Response parameters:
+    success: boolean
+    validAuth: boolean
+    validBooth: boolean
