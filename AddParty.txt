@@ -3,14 +3,14 @@ API end-point name: AddParty.php
 POST parameters: 
 	postAuthKey: our auth key
 	name: String party abbreviation in upper case
-	boothId: String id of booth
+	adminId: String id of admin
 	symbol: String path of the image file in web_host
 			eg- "\PartySymbols\TMC.png"
 
 
 Response parameters:
 	validAuth: boolean
-	validBooth: boolean(false for invalid or logged out booth)
+	validAdmin: boolean(false for invalid or logged out admin)
 	validName: boolean (false if name is already taken)
 	validSymbol: boolean(false if symbol path is repeated)
 	success: boolean
