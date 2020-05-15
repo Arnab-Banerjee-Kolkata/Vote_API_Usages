@@ -4,13 +4,13 @@ POST parameters:
     postAuthKey: our auth key
     electionName: String name of election
     electionYear: Integer year of election
-    boothId: String id of booth
+    adminId: String id of admin
     
     
 Response parameters:
     success: boolean
     validAuth: boolean
-    validBooth: boolean(false for invalid or logged out booth)
+    validAdmin: boolean(false for invalid or logged out admin)
     validName: boolean(false if name is blank or does not start with a letter)
     validYear: boolean(false if blank or year is lesser than current year)
     validElection: boolean(false if election has already been created)
