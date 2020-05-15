@@ -4,14 +4,14 @@ POST parameters:
     postAuthKey: our auth key
     stateElectionId: Integer id of state election
     phaseCode: String code of phase
-    boothId: String id of booth
+    adminId: String id of admin
     
     
     
 Response parameters:
     success: boolean
     validAuth: boolean
-    validBooth: boolean(false for invalid or logged out booth)
+    validAdmin: boolean(false for invalid or logged out admin)
     validStateElection: boolean(false for invalid state election id)
     validPhaseCode: boolean(false for invalid phase code)
     validElection: boolean(false if election is already created)
