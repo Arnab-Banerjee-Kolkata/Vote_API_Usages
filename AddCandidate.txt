@@ -7,12 +7,12 @@ POST parameters:
 	constituencyName: String
 	partyName: String
 	img: String(may be blank) path of candidate image
-	boothId: String id of booth
+	adminId: String id of admin
 
 Response parameters:
 	success: boolean
 	validAuth: boolean
-	validBooth: boolean(false for invalid or logged out booth)
+	validAdmin: boolean(false for invalid or logged out admin)
 	validParty: boolean
 	validElection: boolean
 	validConstituency: boolean
