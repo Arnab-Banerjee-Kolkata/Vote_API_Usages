@@ -5,6 +5,8 @@ POST parameters:
     aadhaarNo: String aadhaar number of recepient
     smsAuthKey: our String key for sms authentication
     boothId: String id of booth
+    electionId: Integer id of election
+    type: String type of election(LOK SABHA or VIDHAN SABHA)
     
     
     
@@ -13,3 +15,5 @@ Response parameters:
     validBooth: boolean(false for invalid or logged out booth)
     validAadhaar: boolean(false for invalid aadhaar number)
     validSmsAuth: boolean(false for invalid auth key)
+    validType: boolean(false for invalid type)
+    validVoter: boolean(false if voter has already voted)
