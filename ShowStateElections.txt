@@ -2,6 +2,7 @@ API endpoint name: ShowStateElections.php
 
 POST parameters:
     postAuthKey: our auth key
+    adminId: String id of admin
     type: String type of election(LOK SABHA or VIDHAN SABHA)
     countryElectionId: Integer id of country election[ONLY for lok sabha]
     
@@ -9,6 +10,7 @@ POST parameters:
 Response parameters:
     success: boolean
     validAuth: boolean
+    validAdmin: boolean(false for invalid adminId)
     validType: boolean(false for invalid election type)
     validElection: boolean(false for invalid country election id)[ONLY for lok sabha]
     elections: JSON array. Each element contains:
