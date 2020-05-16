@@ -19,6 +19,6 @@ Response parameters:
 	returnValue: JSON array which contains
     		validInternalAuth: boolean (false for invalid internal auth key)
 		validVoterStatus: boolean (false for aadhaarNo present in Govt_Vote_Status table)
-		garbageAndVoted: JSON array which contains
+		garbageVoted: JSON array which contains
 			validInternalAuth2: boolean (false for invalid internal auth key)
 			success: boolean
