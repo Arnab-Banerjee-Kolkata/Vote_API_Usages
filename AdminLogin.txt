@@ -11,5 +11,4 @@ Response parameters:
     validAuth: boolean
     validAdmin: boolean (false for invalid admin or already logged in)
     validOtp: boolean (false for invalid otp)
-    
-    
+    adminSuspended: boolean (true when the admin is suspended) [This response is present only when the admin is suspended]
