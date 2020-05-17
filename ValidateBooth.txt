@@ -14,3 +14,4 @@ Response parameters:
         validAuth: boolean
         validBooth: boolean(false for invalid boothId)
         validLogin: boolean(false for logged in booth)
+        boothSuspended: boolean(true for booth user suspended)[This response is present only when the user is suspended]
