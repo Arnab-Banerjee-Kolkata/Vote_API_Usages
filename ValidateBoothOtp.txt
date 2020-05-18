@@ -7,8 +7,6 @@ POST parameters:
     boothId: String id of booth
     otp: Integer otp of booth
     postAuthKey: our auth key
-    electionId: Integer id of election
-    type: String type of election(LOK SABHA or VIDHAN SABHA)
     
     
     
@@ -19,8 +17,6 @@ Response parameters:
     sub: JSON array which contains:
         success: boolean
         validInternalAuth: boolean(false for invalid key)
-        validElection: boolean(false for invalid election id)
-        validParentElection: boolean(false if election id does not match with approval parent election id)
         candidates: JSON array. Each array element has:
             id: Integer id of the candidate
             name: String name of candidate
