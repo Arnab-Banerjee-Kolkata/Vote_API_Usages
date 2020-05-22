@@ -3,7 +3,7 @@ API endpoint name: ChangeElectionStatus.php
 POST parameters:
     postAuthKey: our auth key
     adminId: string id of admin
-    type: type of election LS or VS
+    type: type of election(COUNTRY or STATE or PHASE)
     electionId: int id of election
     newStatus: int new status to be updated
     
@@ -14,5 +14,5 @@ Response parameters:
     validAdmin: boolean (false for invalid admin or not logged in)
     validType: boolean  (false for invalid type)
     validElection: boolean  (false for invalid electionId)
-    validStatus: boolean (false for newStatus is not 1 greater than currentStatus and status changes from 2 to 3)
+    validStatus: boolean (false if election cannot be changed to new status
     
