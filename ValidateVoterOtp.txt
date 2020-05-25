@@ -4,7 +4,7 @@ POST parameters:
 	postAuthKey: our auth key
  	boothId: string booth id
  	aadhaarNo: string aadhaar number
- 	voterOtp: integer voter OTP
+ 	voterOtp: String voter OTP
 	electionId: Integer id of election
 	type: String type of election(LOK SABHA or VIDHAN SABHA)
   
