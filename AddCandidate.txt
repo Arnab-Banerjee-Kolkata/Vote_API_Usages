@@ -3,18 +3,18 @@ API endpoint name: AddCandidate.php
 POST parameters:
 	postAuthKey: our auth key
 	name: String
-	electionId: Integer
-	constituencyName: String
-	partyName: String
-	img: String(may be blank) path of candidate image
+	stateElectionId: Integer id of state election
+	constituencyName: String name of constituency
+	partyName: String name of party
+	img: String path of candidate image[OPTIONAL]
 	adminId: String id of admin
 
 Response parameters:
 	success: boolean
 	validAuth: boolean
 	validAdmin: boolean(false for invalid or logged out admin)
-	validParty: boolean
-	validElection: boolean
-	validConstituency: boolean
-	validCandidate: boolean
+	validParty: boolean(false for invalid party)
+	validElection: boolean(false for invalid election)
+	validConstituency: boolean(false for invalid constituency)
+	validCandidate: boolean(false if such a candidate has already been added)
 	candidateId: Integer Id of candidate (-1 on failure)
