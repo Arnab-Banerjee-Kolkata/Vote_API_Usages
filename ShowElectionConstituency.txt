@@ -2,7 +2,7 @@ API endpoint name: ShowElectionConstituency.php
 
 POST parameters:
 	postAuthKey: our auth key
-	electionId: Integer id of election
+	stateElectionId: Integer id of state election
 	adminId: String id of admin
 
 Response parameters:
