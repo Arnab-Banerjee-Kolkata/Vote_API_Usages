@@ -26,6 +26,10 @@ Check the error responses in the provide order for accurate detection of paramet
     1: Logged in<br>
     2: Suspended<br>
 <br>
+<b>Party symbol status::</b><br>
+    0: Available<br>
+    1: Taken<br>
+<br>
 <br>
 <br>
 <b>SECURITY MEASURES</b><br><br>
