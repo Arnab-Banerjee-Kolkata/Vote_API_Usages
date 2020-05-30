@@ -1,0 +1,14 @@
+API endpoint name: ShowSymbols.php
+
+POST parameters:
+      PostAuthKey: Our auth key
+      adminId: String id of admin
+      
+      
+Response parameters:
+      success: boolean
+      validAuth: boolean
+      validAdmin: boolean(false for invalid adminId)
+      symbolList: JSON array. Each array element contains:
+            path: image path of symbol
+            status: status of symbol [0 for available 1 for taken]
