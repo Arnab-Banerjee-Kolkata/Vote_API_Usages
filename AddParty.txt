@@ -12,5 +12,5 @@ Response parameters:
 	validAuth: boolean
 	validAdmin: boolean(false for invalid or logged out admin)
 	validName: boolean (false if name is already taken)
-	validSymbol: boolean(false if symbol path is repeated)
+	validSymbol: boolean(false if symbol path is already taken)
 	success: boolean
