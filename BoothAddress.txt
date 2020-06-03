@@ -13,3 +13,4 @@ Response parameters:
                                       area: String locality of Booth
                                       address: String full address of booth
                                       landmark: String landmark of Booth
+                                      mapLink: String google maps link of booth location
