@@ -20,4 +20,4 @@ Response parameters:
     sub: JSON array.
         success: boolean
         validInternalAuth: boolean(false if internal auth key is incorrect)
-        validParentOp: boolean(false parent election status check is not performed)
+        validParentOp: boolean(false if there is a tie in the constituency result)
