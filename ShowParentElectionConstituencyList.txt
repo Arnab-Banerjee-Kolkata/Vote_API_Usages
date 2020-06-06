@@ -22,4 +22,5 @@ Response parameters:
         stateName: String name of state of constituency[Only for LOK SABHA elections]
     declaredList: JSON array. Each array element contains:
         name: String name of constituency
+        tie: boolean (true if there is a tie for winning position in this constituency)
         stateName: String name of state of constituency[Only for LOK SABHA elections]
