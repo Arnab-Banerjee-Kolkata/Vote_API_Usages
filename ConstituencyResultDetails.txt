@@ -1,4 +1,4 @@
-API endpoint name: COnstituencyResultDetails.php
+API endpoint name: ConstituencyResultDetails.php
 
 
 POST parameters:
