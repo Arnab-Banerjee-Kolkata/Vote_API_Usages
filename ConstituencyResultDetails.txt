@@ -1,0 +1,20 @@
+API endpoint name: COnstituencyResultDetails.php
+
+
+POST parameters:
+        postAuthKey: our auth key
+        stateElectionId: Integer id of state election
+        constituencyName: String name of constituency
+        
+        
+Response parameters:
+        success: boolean
+        validAuth: boolean
+        validElection: boolean(false for invalid or incomplete election id)
+        validConstituency: boolean(false for invalid constituency name or if constituency is of a different state)
+        detailResult: JSON array. Each element contains:
+                  name: String name of candidate
+                  image: String image path of candidate
+                  noOfVotes: Integer number of votes received by the candidate
+                  partyName: String name of party
+                  partySymbol: String path of party symbol
