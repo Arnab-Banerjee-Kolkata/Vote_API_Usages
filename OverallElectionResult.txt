@@ -21,3 +21,4 @@ Response parameters:
             partyName: String name of party
             seatsWon: Integer number of seats won
             partySymbol: String path of party symbol
+            alliance: String alliance of party(Blank or NULL for stand-alone party)
