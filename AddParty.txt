@@ -4,6 +4,7 @@ POST parameters:
 	postAuthKey: our auth key
 	name: String party abbreviation in upper case
 	adminId: String id of admin
+	alliance: String alliance name of party [OPTIONAL]
 	symbol: String path of the image file in web_host
 			eg- "\PartySymbols\TMC.png"
 
