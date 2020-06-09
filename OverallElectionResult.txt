@@ -22,3 +22,4 @@ Response parameters:
             seatsWon: Integer number of seats won
             partySymbol: String path of party symbol
             alliance: String alliance of party(Blank or NULL for stand-alone party)
+    allianceList: Array where each element is like ->  allianceName : noOfSeatsWon
