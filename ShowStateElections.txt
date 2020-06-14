@@ -5,6 +5,7 @@ POST parameters:
     adminId: String id of admin
     type: String type of election(LOK SABHA or VIDHAN SABHA)
     countryElectionId: Integer id of country election[ONLY for lok sabha]
+    isChangeStatus: String (TRUE or FALSE)[TRUE for changeStatus dropdown]
     
     
 Response parameters:
