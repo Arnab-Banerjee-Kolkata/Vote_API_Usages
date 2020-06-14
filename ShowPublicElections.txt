@@ -12,5 +12,5 @@ Response parameters:
                 electionId: Integer id of election
                 name: String name of election
                 type: String type of election
-                status: Integer status of election(0 or 1 only)
+                status: Integer status of election
                 year: Integer year of election
