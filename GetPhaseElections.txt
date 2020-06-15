@@ -1,0 +1,18 @@
+API endpoint name: GetPhaseElections.php
+
+POST parameters:
+    postAuthKey: our auth key
+    adminId: String id of admin
+    type: String type (LOK SABHA or VIDHAN SABHA)
+    stateElectionId: Integer id of state election
+    
+    
+Response parameters:
+    success: boolean
+    validAuth: boolean
+    validAdmin: boolean(false for invalid adminId)
+    validType: boolean(false for invalid type)
+    validElection: boolean(false for invalid election)
+    phaseElections: json array. Each array element has:
+            phaseCode: String code of phase of phase election
+            status: Integer status
