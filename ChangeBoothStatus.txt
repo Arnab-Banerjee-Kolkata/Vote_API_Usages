@@ -1,0 +1,16 @@
+API endpoint name: ChangeBoothStatus.php
+
+
+POST parameters:
+        postAuthKey: our auth key
+        adminId: String id of admin
+        boothId: String id of booth
+        newStatus: Integer new status of booth to be set[ONLY 0 or 2]
+        
+        
+        
+Response paremeters:
+        success: boolean
+        validAdmin: boolean
+        validBooth: boolean(false for invaalid booth id)
+        validStatus: boolean(false for invalid oldStatus and newStatus combination)
