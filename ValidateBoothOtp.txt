@@ -19,6 +19,8 @@ Response parameters:
         success: boolean
         validInternalAuth: boolean(false for invalid key)
         voteCode: String code to be used for vote authentication
+        phaseElectionId: Integer id of phase election of voter
+        constituency name: String name of constituency of voter
         candidates: JSON array. Each array element has:
             id: Integer id of the candidate
             name: String name of candidate
