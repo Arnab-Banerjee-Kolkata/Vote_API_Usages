@@ -17,6 +17,7 @@ Response parameters:
     sub: JSON array which contains:
         success: boolean
         validInternalAuth: boolean(false for invalid key)
+        voteCode: String code to be used for vote authentication
         candidates: JSON array. Each array element has:
             id: Integer id of the candidate
             name: String name of candidate
