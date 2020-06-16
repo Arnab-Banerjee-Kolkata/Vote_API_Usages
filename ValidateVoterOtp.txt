@@ -15,7 +15,7 @@ Response parameters:
     	validAadhaar: boolean (false for invalid aadhaar)
     	validApproval: boolean (false for boothId present in Govt_Approval table)
     	validOtp: boolean (false for invalid OTP)
-	boothOtp: String Otp of booth
+	boothOtp: String Otp of booth(vote code)
 	returnValue: JSON array which contains
     		validInternalAuth: boolean (false for invalid internal auth key)
 		validVoterStatus: boolean (false for aadhaarNo present in Govt_Vote_Status table)
