@@ -13,6 +13,7 @@ POST parameters:
 Response parameters:
     validAuth: boolean
     validBooth: boolean(false for invalid or logged out booth)
+    validApproval: boolean(false if panel has already been shown or approval expired)
     validOtp: boolean(false for incorrect otp)
     sub: JSON array which contains:
         success: boolean
