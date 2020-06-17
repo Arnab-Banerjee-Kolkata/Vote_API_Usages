@@ -4,6 +4,7 @@ POST parameters:
     postAuthKey: our auth key
     boothId: String id of booth
     enVote: String encrypted vote(In the discussed pre-defined standard format)
+    voteCode: String unique code of for voting received with panel
     
     
     
@@ -12,6 +13,6 @@ Response parameters:
     validAuth: boolean
     validBooth: boolean(false for invalid booth id or logged out booth)
     validIntegrity: boolean(false if number of people voted is not equal to the number of votes)
-    validApproval: boolean(false if an approval from the specified phase election, constituency and booth is not present)
+    validApproval: boolean(false if an approval from the specified phase election, constituency and booth is not present OR for invalid voteCode)
     deleteApproval: boolean(false if approval was deleted in this call)
     validGarbage: boolean(false if a corresponding garbage vote is not already present, indicating non approval)
