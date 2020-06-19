@@ -1,7 +1,7 @@
 API endpoint name: StoreVote.php
 
 POST parameters:
-    postAuthKey: our auth key
+    voteAuthKey: vote auth key
     boothId: String id of booth
     enVote: String encrypted vote(In the discussed pre-defined standard format)
     voteCode: String unique code of for voting received with panel
