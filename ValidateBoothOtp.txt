@@ -6,7 +6,7 @@ API endpoint name: ValidateBoothOtp.php
 POST parameters:
     boothId: String id of booth
     otp: String otp of booth(vote code)
-    postAuthKey: our auth key
+    voteAuthKey: vote auth key
     
     
     
