@@ -15,7 +15,7 @@ Response parameters:
     validBooth: boolean(false for invalid or logged out booth)
     validApproval: boolean(false if panel has already been shown or approval expired)
     validOtp: boolean(false for incorrect otp)
-    sub: JSON array which contains:
+    sub: JSON object which contains:
         success: boolean
         validInternalAuth: boolean(false for invalid key)
         voteCode: String code to be used for vote authentication
