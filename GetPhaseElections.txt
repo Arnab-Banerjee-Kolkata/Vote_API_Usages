@@ -14,5 +14,6 @@ Response parameters:
     validType: boolean(false for invalid type)
     validElection: boolean(false for invalid election)
     phaseElections: json array. Each array element has:
+            id: Integer id of phase election
             phaseCode: String code of phase of phase election
             status: Integer status
