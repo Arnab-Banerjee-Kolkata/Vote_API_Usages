@@ -20,3 +20,4 @@ Response parameters:
         year: Integer year of election
         stateCode: String code of state
         stateName: String name of state
+        status: Integer status of election
