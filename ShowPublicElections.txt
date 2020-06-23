@@ -14,3 +14,4 @@ Response parameters:
                 type: String type of election
                 status: Integer status of election
                 year: Integer year of election
+                stateName: String name of state of election[ONLY for VIDHAN SABHA]
