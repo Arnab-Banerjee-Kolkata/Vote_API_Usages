@@ -1,5 +1,5 @@
 # Vote_API_Usages
-<b> API HOST path:</b>http://www.remote-voting.rf.gd <br>
+<b> API HOST path:</b> http://www.remote-voting.rf.gd <br>
 
 Check the error responses in the provide order for accurate detection of parameter errors<br>
 
